@@ -95,7 +95,7 @@ public class CameraCollider : MonoBehaviour
             else yToMoveTo = transform.position.y + (cameraSpeed * Time.deltaTime);
 
 			//DEPENDING ON YOUR GAME, YOU CAN COMBINE THESE NEXT TWO STEPS
-			//INTO IF YOU WANT TO USE A BOX INSTEAD OF RAILS
+			//INTO ONE IF YOU WANT TO USE A BOX INSTEAD OF RAILS
 			
 			//GET OUR X AND Y LIMITS FROM THE HORIZONTAL RAILS
             if (horizontalRails.Count > 0)
